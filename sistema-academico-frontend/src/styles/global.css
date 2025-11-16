@@ -1,0 +1,24 @@
+:root {
+  --color-bg: #F5F6FA;
+  --color-card: #FFFFFF;
+  --color-primary: #3B82F6;
+  --color-primary-dark: #2563EB;
+  --color-success: #10B981;
+  --color-text: #1F2937;
+  --color-subtext: #6B7280;
+  --color-border: #E5E7EB;
+
+  --radius: 12px;
+  --shadow: 0 4px 14px rgba(0,0,0,0.1);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+a {
+  text-decoration: none;
+}

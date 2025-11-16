@@ -17,6 +17,5 @@ public class Acudiente {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long acudienteId;
-    @OneToMany(mappedBy = "acudiente", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<Estudiante> estudiantes = new ArrayList<>();
+
 }

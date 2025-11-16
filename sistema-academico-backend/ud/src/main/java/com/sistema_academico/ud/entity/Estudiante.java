@@ -24,8 +24,7 @@ public class Estudiante {
     @Column(name = "estado")
     private String estado = "PENDIENTE";
 
-    // 🔥 Polimorfismo: puede ser Aspirante o Acudiente
-    @ManyToOne(fetch = FetchType.LAZY)
+    @ManyToOne
     @JoinColumn(name = "usuario_responsable_id")
     private Usuario responsable;
 }
