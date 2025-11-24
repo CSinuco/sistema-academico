@@ -20,5 +20,6 @@ public class Usuario {
     protected String password;
     protected boolean cambiarPassword = true;
     protected boolean activo = true;
+    @Enumerated(EnumType.STRING)
     protected UserRole rol;
 }

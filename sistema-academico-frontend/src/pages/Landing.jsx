@@ -1,5 +1,7 @@
 import { useState } from 'react';
+import "../styles/landing.css";
 import RegistroAspirante from '../components/RegistroAspirante';
+import LogIn from '../components/LogIn';
 
 export default function Landing() {
     const [activeTab, setActiveTab] = useState('login');
@@ -23,8 +25,7 @@ export default function Landing() {
 
             {activeTab === 'login' && (
                 <div className="form-container">
-                    {/* Tu componente de login aquí */}
-                    <p>Formulario de Iniciar Sesión</p>
+                    <LogIn/>
                 </div>
             )}
 

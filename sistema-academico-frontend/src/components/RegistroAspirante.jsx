@@ -3,8 +3,8 @@ import "../styles/forms.css";
 
 export default function RegistroAspirante() {
   const [form, setForm] = useState({
-    nombres: "",
-    apellidos: "",
+    nombre: "",
+    apellido: "",
     correo: ""
   });
 
